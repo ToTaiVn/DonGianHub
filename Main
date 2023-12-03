@@ -1,0 +1,18 @@
+
+
+if game.PlaceId == 2753915549 then
+
+  --BF SEA 1
+        loadstring(Game:HttpGetAsync("https://raw.githubusercontent.com/ToTaiVn/SiMpLeHaB/main/Extra"))()
+    elseif game.PlaceId == 4442272183 then
+  --BF SEA 2
+        loadstring(Game:HttpGetAsync("https://raw.githubusercontent.com/ToTaiVn/SiMpLeHaB/main/Extra"))()
+    elseif game.PlaceId == 7449423635 then
+        --BF SEA 3
+  loadstring(Game:HttpGetAsync("https://raw.githubusercontent.com/ToTaiVn/SiMpLeHaB/main/Extra"))()
+elseif game.PlaceId == 11200494415 then
+        --Jujutsu Chronicles
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ToTaiVn/thisscripthasno-name/main/ShinzouSasageyo.lua"))()
+else
+  game.Players.LocalPlayer:Kick("SorryWe Are Not Support This Game!")
+end
